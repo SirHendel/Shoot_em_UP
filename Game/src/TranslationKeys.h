@@ -1,0 +1,23 @@
+#ifndef TRANSLATION_KEYS_H
+#define TRANSLATION_KEYS_H
+
+enum TranslationKey {
+    MENU_GAME,
+    MENU_SETTINGS,
+    MENU_QUIT,
+    AUDIO_VOLUME,
+    LANGUAGE_LABEL,
+    // In-Game UI translations
+    GAME_SCORE,
+    GAME_HEALTH,
+    GAME_WAVE,
+    GAME_KILLS,
+    GAME_BOSS_FIGHT,
+    GAME_GAME_OVER,
+    GAME_YOU_WIN,
+    GAME_PRESS_ESC,
+    GAME_RESTART,
+    GAME_BACK_TO_MENU
+};
+
+#endif

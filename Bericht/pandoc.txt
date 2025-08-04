@@ -1,0 +1,1 @@
+pandoc Game-programming.md -o Game-programming.pdf --pdf-engine=xelatex -V geometry:margin=3cm -V fontsize=12pt -V mainfont="Arial" -V documentclass=extarticle
