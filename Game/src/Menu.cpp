@@ -39,23 +39,23 @@ void renderMainMenu(AppContext& appContext) {
         float yPos = 200 + i * 100;
         SDL_Color color = (i == selectedItem) ? White : Green;
 
-        const char* menuItemText;
+        std::string menuItemText; // Use std::string instead of const char*
         switch (i) {
             case 0: // Game
-                menuItemText = getTranslation(MENU_GAME, selectedLanguage).c_str();
+                menuItemText = getTranslation(MENU_GAME, selectedLanguage);
                 break;
             case 1: // Settings
-                menuItemText = getTranslation(MENU_SETTINGS, selectedLanguage).c_str();
+                menuItemText = getTranslation(MENU_SETTINGS, selectedLanguage);
                 break;
             case 2: // Quit
-                menuItemText = getTranslation(MENU_QUIT, selectedLanguage).c_str();
+                menuItemText = getTranslation(MENU_QUIT, selectedLanguage);
                 break;
             default:
                 menuItemText = "";
                 break;
         }
 
-        renderText(appContext.renderer, menuItemText, 400 - 50, yPos, appContext.font, color);
+        renderText(appContext.renderer, menuItemText.c_str(), 400 - 50, yPos, appContext.font, color);
     }
 
     SDL_RenderPresent(appContext.renderer);

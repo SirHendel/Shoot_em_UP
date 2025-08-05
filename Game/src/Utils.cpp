@@ -4,6 +4,7 @@
 #include <cstdio>
 #include <filesystem>
 #include "MusicPlayer.h"
+#include <iostream>
 
 bool initializeSDL(AppContext& appContext) {
     if (not SDL_Init(SDL_INIT_VIDEO)) {
@@ -60,4 +61,37 @@ void cleanupSDL(AppContext& appContext) {
     }
     TTF_Quit();
     SDL_Quit();
+}
+
+
+void renderGameText(SDL_Renderer* renderer, const char* text, float x, float y, TTF_Font* font, SDL_Color color) {
+    // Safety checks
+    if (!text || strlen(text) == 0) {
+        std::cerr << "Warning: Trying to render empty text" << std::endl;
+        return;
+    }
+    
+    if (!font) {
+        std::cerr << "Error: Font is null" << std::endl;
+        return;
+    }
+    
+    SDL_Surface* surface = TTF_RenderText_Solid(font, text, static_cast<size_t>(strlen(text)), color);
+    if (!surface) {
+        std::cerr << "Failed to render text '" << text << "': " << SDL_GetError() << std::endl;
+        return;
+    }
+
+    SDL_Texture* texture = SDL_CreateTextureFromSurface(renderer, surface);
+    if (!texture) {
+        std::cerr << "Failed to create texture: " << SDL_GetError() << std::endl;
+        SDL_DestroySurface(surface);
+        return;
+    }
+
+    SDL_FRect text_rect = {x, y, static_cast<float>(surface->w), static_cast<float>(surface->h)};
+    SDL_RenderTexture(renderer, texture, nullptr, &text_rect);
+
+    SDL_DestroyTexture(texture);
+    SDL_DestroySurface(surface);
 }

@@ -51,7 +51,7 @@ struct GameStats {
     int bossesDefeated;
     int totalEnemiesSpawned;
     bool bossActive;
-    Uint32 gameStartTime;
+    Uint64 gameStartTime;
 };
 
 extern int score;
