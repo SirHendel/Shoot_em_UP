@@ -1,0 +1,25 @@
+SDL_ttf/external/plutovg-build/CMakeFiles/plutovg.dir/source/plutovg-ft-stroker.c.obj: \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.c \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL_ttf/external/plutovg/source/plutovg-ft-stroker.h \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL_ttf/external/plutovg/source/plutovg-ft-raster.h \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL_ttf/external/plutovg/source/plutovg-ft-types.h \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL_ttf/external/plutovg/source/plutovg-ft-math.h \
+ /usr/share/mingw-w64/include/assert.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/corecrt.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/share/mingw-w64/include/stdlib.h \
+ /usr/share/mingw-w64/include/corecrt_wstdlib.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/limits.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/syslimits.h \
+ /usr/share/mingw-w64/include/limits.h \
+ /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+ /usr/share/mingw-w64/include/malloc.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/mm_malloc.h \
+ /usr/share/mingw-w64/include/errno.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h

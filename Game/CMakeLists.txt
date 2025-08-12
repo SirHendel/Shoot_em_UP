@@ -27,10 +27,6 @@ target_include_directories(${EXECUTABLE_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR
 
 target_compile_features(${EXECUTABLE_NAME} PUBLIC cxx_std_20)
 
-# Remove GLFW - it conflicts with SDL3
-# find_package(glfw3 REQUIRED)
-# target_link_libraries(${EXECUTABLE_NAME} PRIVATE glfw)
-
 add_subdirectory(SDL EXCLUDE_FROM_ALL)
 
 # ttf
@@ -54,7 +50,6 @@ target_link_libraries(${EXECUTABLE_NAME} PUBLIC
 
 target_compile_definitions(${EXECUTABLE_NAME} PUBLIC SDL_MAIN_USE_CALLBACKS)
 
-# Windows-specific libraries
 if(WIN32)
     target_link_libraries(${EXECUTABLE_NAME} PRIVATE
         winmm
@@ -64,6 +59,7 @@ if(WIN32)
         version
         setupapi
     )
+    set(CMAKE_EXECUTABLE_SUFFIX ".exe")
 endif()
 
 macro(copy_helper filename)

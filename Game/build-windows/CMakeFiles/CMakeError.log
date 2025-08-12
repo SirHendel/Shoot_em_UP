@@ -1,0 +1,939 @@
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_680cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_680cf.dir/build.make CMakeFiles/cmTC_680cf.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_680cf.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DHAVE_GCC_WDOCUMENTATION  -D_GNU_SOURCE=1   -Wdocumentation -o CMakeFiles/cmTC_680cf.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+x86_64-w64-mingw32-gcc: error: unrecognized command-line option '-Wdocumentation'
+gmake[1]: *** [CMakeFiles/cmTC_680cf.dir/build.make:78: CMakeFiles/cmTC_680cf.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_680cf/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d90a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d90a5.dir/build.make CMakeFiles/cmTC_d90a5.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d90a5.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DHAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND  -D_GNU_SOURCE=1   -Wdocumentation-unknown-command -o CMakeFiles/cmTC_d90a5.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+x86_64-w64-mingw32-gcc: error: unrecognized command-line option '-Wdocumentation-unknown-command'
+gmake[1]: *** [CMakeFiles/cmTC_d90a5.dir/build.make:78: CMakeFiles/cmTC_d90a5.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d90a5/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3098f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3098f.dir/build.make CMakeFiles/cmTC_3098f.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3098f.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DHAVE_GCC_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   -fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_3098f.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+x86_64-w64-mingw32-gcc: error: unrecognized command-line option '-fcomment-block-commands=threadsafety'
+gmake[1]: *** [CMakeFiles/cmTC_3098f.dir/build.make:78: CMakeFiles/cmTC_3098f.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3098f/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_CLANG_COMMENT_BLOCK_COMMANDS failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd72c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd72c.dir/build.make CMakeFiles/cmTC_dd72c.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd72c.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DHAVE_CLANG_COMMENT_BLOCK_COMMANDS  -D_GNU_SOURCE=1   /clang:-fcomment-block-commands=threadsafety -o CMakeFiles/cmTC_dd72c.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+x86_64-w64-mingw32-gcc: warning: /clang:-fcomment-block-commands=threadsafety: linker input file unused because linking not done
+x86_64-w64-mingw32-gcc: error: /clang:-fcomment-block-commands=threadsafety: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_dd72c.dir/build.make:78: CMakeFiles/cmTC_dd72c.dir/src.c.obj] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_dd72c.dir/src.c.obj'
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_dd72c/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dbefe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dbefe.dir/build.make CMakeFiles/cmTC_dbefe.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbefe.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_dbefe.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘__GLIBC__’ undeclared (first use in this function); did you mean ‘__LINE__’?
+    8 |   return ((int*)(&__GLIBC__))[argc];
+      |                   ^~~~~~~~~
+      |                   __LINE__
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_dbefe.dir/build.make:78: CMakeFiles/cmTC_dbefe.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_dbefe/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9c227/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9c227.dir/build.make CMakeFiles/cmTC_9c227.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c227.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DHAVE_GCC_FVISIBILITY  -D_GNU_SOURCE=1 -fvisibility=hidden -Werror -o CMakeFiles/cmTC_9c227.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c: In function ‘bar’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:8:33: error: visibility attribute not supported in this configuration; ignored [-Werror=attributes]
+    8 |       int bar(void) { return 1; }
+      |                                 ^
+cc1: all warnings being treated as errors
+gmake[1]: *** [CMakeFiles/cmTC_9c227.dir/build.make:78: CMakeFiles/cmTC_9c227.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9c227/fast] Error 2
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      __attribute__((visibility("default"))) int foo(void);
+      __attribute__((visibility("hidden")))  int bar(void);
+      int foo(void) { return 0; }
+      int bar(void) { return 1; }
+      int main(void) { return 0; }
+Determining if the include file alloca.h exists failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_003d9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_003d9.dir/build.make CMakeFiles/cmTC_003d9.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_003d9.dir/CheckIncludeFile.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_003d9.dir/CheckIncludeFile.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: alloca.h: No such file or directory
+    1 | #include <alloca.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_003d9.dir/build.make:78: CMakeFiles/cmTC_003d9.dir/CheckIncludeFile.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_003d9/fast] Error 2
+
+
+
+Determining if the include file iconv.h exists failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86b68/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86b68.dir/build.make CMakeFiles/cmTC_86b68.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86b68.dir/CheckIncludeFile.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_86b68.dir/CheckIncludeFile.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: iconv.h: No such file or directory
+    1 | #include <iconv.h>
+      |          ^~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_86b68.dir/build.make:78: CMakeFiles/cmTC_86b68.dir/CheckIncludeFile.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_86b68/fast] Error 2
+
+
+
+Determining if the bcopy exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33ab0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33ab0.dir/build.make CMakeFiles/cmTC_33ab0.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33ab0.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_33ab0.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘bcopy’ undeclared (first use in this function)
+   25 |   return ((int*)(&bcopy))[argc];
+      |                   ^~~~~
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_33ab0.dir/build.make:78: CMakeFiles/cmTC_33ab0.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_33ab0/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the index exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1ddbf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ddbf.dir/build.make CMakeFiles/cmTC_1ddbf.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ddbf.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_1ddbf.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘index’ undeclared (first use in this function)
+   25 |   return ((int*)(&index))[argc];
+      |                   ^~~~~
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_1ddbf.dir/build.make:78: CMakeFiles/cmTC_1ddbf.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1ddbf/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the rindex exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4fee9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4fee9.dir/build.make CMakeFiles/cmTC_4fee9.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fee9.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_4fee9.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘rindex’ undeclared (first use in this function)
+   25 |   return ((int*)(&rindex))[argc];
+      |                   ^~~~~~
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_4fee9.dir/build.make:78: CMakeFiles/cmTC_4fee9.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4fee9/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c171d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c171d.dir/build.make CMakeFiles/cmTC_c171d.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c171d.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_c171d.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘setenv’ undeclared (first use in this function); did you mean ‘getenv’?
+   25 |   return ((int*)(&setenv))[argc];
+      |                   ^~~~~~
+      |                   getenv
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_c171d.dir/build.make:78: CMakeFiles/cmTC_c171d.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c171d/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sqr exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dce9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dce9b.dir/build.make CMakeFiles/cmTC_dce9b.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dce9b.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_dce9b.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘sqr’ undeclared (first use in this function); did you mean ‘sqrt’?
+   25 |   return ((int*)(&sqr))[argc];
+      |                   ^~~
+      |                   sqrt
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_dce9b.dir/build.make:78: CMakeFiles/cmTC_dce9b.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_dce9b/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqr
+  return ((int*)(&sqr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a96f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a96f5.dir/build.make CMakeFiles/cmTC_a96f5.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a96f5.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_a96f5.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+   25 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_a96f5.dir/build.make:78: CMakeFiles/cmTC_a96f5.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a96f5/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bf5c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bf5c1.dir/build.make CMakeFiles/cmTC_bf5c1.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf5c1.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_bf5c1.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+   25 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_bf5c1.dir/build.make:78: CMakeFiles/cmTC_bf5c1.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_bf5c1/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnstr exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2b95c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2b95c.dir/build.make CMakeFiles/cmTC_2b95c.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b95c.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_2b95c.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘strnstr’ undeclared (first use in this function); did you mean ‘strstr’?
+   25 |   return ((int*)(&strnstr))[argc];
+      |                   ^~~~~~~
+      |                   strstr
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_2b95c.dir/build.make:78: CMakeFiles/cmTC_2b95c.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2b95c/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnstr
+  return ((int*)(&strnstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the unsetenv exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e759b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e759b.dir/build.make CMakeFiles/cmTC_e759b.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e759b.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e759b.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘unsetenv’ undeclared (first use in this function)
+   25 |   return ((int*)(&unsetenv))[argc];
+      |                   ^~~~~~~~
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_e759b.dir/build.make:78: CMakeFiles/cmTC_e759b.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e759b/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_458d8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_458d8.dir/build.make CMakeFiles/cmTC_458d8.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_458d8.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_458d8.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘wcslcat’ undeclared (first use in this function); did you mean ‘wcsncat’?
+   25 |   return ((int*)(&wcslcat))[argc];
+      |                   ^~~~~~~
+      |                   wcsncat
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_458d8.dir/build.make:78: CMakeFiles/cmTC_458d8.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_458d8/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2717e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2717e.dir/build.make CMakeFiles/cmTC_2717e.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2717e.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_2717e.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘wcslcpy’ undeclared (first use in this function); did you mean ‘wcsncpy’?
+   25 |   return ((int*)(&wcslcpy))[argc];
+      |                   ^~~~~~~
+      |                   wcsncpy
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_2717e.dir/build.make:78: CMakeFiles/cmTC_2717e.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2717e/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f790/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f790.dir/build.make CMakeFiles/cmTC_3f790.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f790.dir/CheckSymbolExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_3f790.dir/CheckSymbolExists.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: error: ‘_uitoa’ undeclared (first use in this function); did you mean ‘_ultoa’?
+   25 |   return ((int*)(&_uitoa))[argc];
+      |                   ^~~~~~
+      |                   _ultoa
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:25:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_3f790.dir/build.make:78: CMakeFiles/cmTC_3f790.dir/CheckSymbolExists.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3f790/fast] Error 2
+
+
+File /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <malloc.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <time.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test LIBC_HAS_ISINF failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_10467/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10467.dir/build.make CMakeFiles/cmTC_10467.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10467.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DLIBC_HAS_ISINF  -D_GNU_SOURCE=1 -Wfloat-conversion -Werror -o CMakeFiles/cmTC_10467.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+In file included from /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:2:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:5:24: error: conversion from ‘double’ to ‘float’ may change value [-Werror=float-conversion]
+    5 |           return isinf(d);
+      |                        ^
+cc1: all warnings being treated as errors
+gmake[1]: *** [CMakeFiles/cmTC_10467.dir/build.make:78: CMakeFiles/cmTC_10467.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_10467/fast] Error 2
+
+
+Source file was:
+
+        #include <math.h>
+        int main() {
+          double d = 3.14159;
+          return isinf(d);
+        }
+      
+Performing C SOURCE FILE Test LIBC_HAS_ISINFF failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd950/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd950.dir/build.make CMakeFiles/cmTC_dd950.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd950.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DLIBC_HAS_ISINFF  -D_GNU_SOURCE=1 -Wfloat-conversion -Werror -o CMakeFiles/cmTC_dd950.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:5:16: error: implicit declaration of function ‘isinff’ [-Werror=implicit-function-declaration]
+    5 |         return isinff(f);
+      |                ^~~~~~
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:5:16: error: incompatible implicit declaration of built-in function ‘isinff’ [-Werror=builtin-declaration-mismatch]
+cc1: all warnings being treated as errors
+gmake[1]: *** [CMakeFiles/cmTC_dd950.dir/build.make:78: CMakeFiles/cmTC_dd950.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_dd950/fast] Error 2
+
+
+Source file was:
+
+      #include <math.h>
+      int main() {
+        float f = 3.14159f;
+        return isinff(f);
+      }
+    
+Performing C SOURCE FILE Test LIBC_HAS_ISNAN failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0b76c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b76c.dir/build.make CMakeFiles/cmTC_0b76c.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b76c.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DLIBC_HAS_ISNAN  -D_GNU_SOURCE=1 -Wfloat-conversion -Werror -o CMakeFiles/cmTC_0b76c.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+In file included from /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:2:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:5:24: error: conversion from ‘double’ to ‘float’ may change value [-Werror=float-conversion]
+    5 |           return isnan(d);
+      |                        ^
+cc1: all warnings being treated as errors
+gmake[1]: *** [CMakeFiles/cmTC_0b76c.dir/build.make:78: CMakeFiles/cmTC_0b76c.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0b76c/fast] Error 2
+
+
+Source file was:
+
+        #include <math.h>
+        int main() {
+          double d = 3.14159;
+          return isnan(d);
+        }
+      
+Performing C SOURCE FILE Test LIBC_HAS_ISNANF failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d542/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d542.dir/build.make CMakeFiles/cmTC_5d542.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d542.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DLIBC_HAS_ISNANF  -D_GNU_SOURCE=1 -Wfloat-conversion -Werror -o CMakeFiles/cmTC_5d542.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:5:16: error: implicit declaration of function ‘isnanf’ [-Werror=implicit-function-declaration]
+    5 |         return isnanf(f);
+      |                ^~~~~~
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:5:16: error: incompatible implicit declaration of built-in function ‘isnanf’ [-Werror=builtin-declaration-mismatch]
+cc1: all warnings being treated as errors
+gmake[1]: *** [CMakeFiles/cmTC_5d542.dir/build.make:78: CMakeFiles/cmTC_5d542.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5d542/fast] Error 2
+
+
+Source file was:
+
+      #include <math.h>
+      int main() {
+        float f = 3.14159f;
+        return isnanf(f);
+      }
+    
+Performing C SOURCE FILE Test HAVE_GAMEINPUT_H failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a5be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a5be.dir/build.make CMakeFiles/cmTC_1a5be.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a5be.dir/src.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc -DHAVE_GAMEINPUT_H  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_1a5be.dir/src.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/src.c:4:14: fatal error: gameinput.h: No such file or directory
+    4 |     #include <gameinput.h>
+      |              ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_1a5be.dir/build.make:78: CMakeFiles/cmTC_1a5be.dir/src.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1a5be/fast] Error 2
+
+
+Source file was:
+
+    #include <stdbool.h>
+    #define COBJMACROS
+    #include <gameinput.h>
+    int main(int argc, char **argv) { return 0; }
+Determining if the include file shobjidl_core.h exists failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_615bc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_615bc.dir/build.make CMakeFiles/cmTC_615bc.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_615bc.dir/CheckIncludeFile.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_615bc.dir/CheckIncludeFile.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: shobjidl_core.h: No such file or directory
+    1 | #include <shobjidl_core.h>
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_615bc.dir/build.make:78: CMakeFiles/cmTC_615bc.dir/CheckIncludeFile.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_615bc/fast] Error 2
+
+
+
+Determining if the function sysconf exists failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa429/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa429.dir/build.make CMakeFiles/cmTC_aa429.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa429.dir/CheckFunctionExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=sysconf -o CMakeFiles/cmTC_aa429.dir/CheckFunctionExists.c.obj -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aa429.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa429.dir/link.txt --verbose=1
+/usr/bin/cmake -E rm -f CMakeFiles/cmTC_aa429.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_aa429.dir/objects.a @CMakeFiles/cmTC_aa429.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=sysconf -Wl,--whole-archive CMakeFiles/cmTC_aa429.dir/objects.a -Wl,--no-whole-archive -o cmTC_aa429.exe -Wl,--out-implib,libcmTC_aa429.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_aa429.dir/linklibs.rsp
+/usr/bin/x86_64-w64-mingw32-ld: CMakeFiles/cmTC_aa429.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `sysconf'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_aa429.dir/build.make:101: cmTC_aa429.exe] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_aa429/fast] Error 2
+
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9e377/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e377.dir/build.make CMakeFiles/cmTC_9e377.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e377.dir/CheckFunctionExists.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc   -DCHECK_FUNCTION_EXISTS=mmap -o CMakeFiles/cmTC_9e377.dir/CheckFunctionExists.c.obj -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9e377.exe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e377.dir/link.txt --verbose=1
+/usr/bin/cmake -E rm -f CMakeFiles/cmTC_9e377.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/cmTC_9e377.dir/objects.a @CMakeFiles/cmTC_9e377.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-gcc  -DCHECK_FUNCTION_EXISTS=mmap -Wl,--whole-archive CMakeFiles/cmTC_9e377.dir/objects.a -Wl,--no-whole-archive -o cmTC_9e377.exe -Wl,--out-implib,libcmTC_9e377.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_9e377.dir/linklibs.rsp
+/usr/bin/x86_64-w64-mingw32-ld: CMakeFiles/cmTC_9e377.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text+0x15): undefined reference to `mmap'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9e377.dir/build.make:101: cmTC_9e377.exe] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9e377/fast] Error 2
+
+
+
+Determining if the include file sys/mman.h exists failed with the following output:
+Change Dir: /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_69fc3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_69fc3.dir/build.make CMakeFiles/cmTC_69fc3.dir/build
+gmake[1]: Entering directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69fc3.dir/CheckIncludeFile.c.obj
+/usr/bin/x86_64-w64-mingw32-gcc    -o CMakeFiles/cmTC_69fc3.dir/CheckIncludeFile.c.obj -c /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/mman.h: No such file or directory
+    1 | #include <sys/mman.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_69fc3.dir/build.make:78: CMakeFiles/cmTC_69fc3.dir/CheckIncludeFile.c.obj] Error 1
+gmake[1]: Leaving directory '/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/build-windows/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_69fc3/fast] Error 2
+
+
+

@@ -1,0 +1,3 @@
+/usr/bin/cmake -E rm -f CMakeFiles/SDL3_ttf-shared.dir/objects.a
+/usr/bin/x86_64-w64-mingw32-ar qc CMakeFiles/SDL3_ttf-shared.dir/objects.a @CMakeFiles/SDL3_ttf-shared.dir/objects1.rsp
+/usr/bin/x86_64-w64-mingw32-g++ -O3 -DNDEBUG -static-libgcc -Wl,--no-undefined -Wl,--version-script=/home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL_ttf/src/SDL_ttf.sym -shared -o ../Release/SDL3_ttf.dll -Wl,--out-implib,libSDL3_ttf.dll.a -Wl,--major-image-version,0,--minor-image-version,3 -Wl,--whole-archive CMakeFiles/SDL3_ttf-shared.dir/objects.a -Wl,--no-whole-archive @CMakeFiles/SDL3_ttf-shared.dir/linklibs.rsp

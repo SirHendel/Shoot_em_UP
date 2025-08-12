@@ -1,0 +1,32 @@
+SDL_mixer/CMakeFiles/SDL3_mixer-shared.dir/src/utils.c.obj: \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL_mixer/src/utils.c \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL_mixer/src/utils.h \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL/include/SDL3/SDL_stdinc.h \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL/include/SDL3/SDL_platform_defines.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stdarg.h \
+ /usr/share/mingw-w64/include/stdarg.h \
+ /usr/share/mingw-w64/include/_mingw_stdarg.h \
+ /usr/share/mingw-w64/include/vadefs.h \
+ /usr/share/mingw-w64/include/_mingw.h \
+ /usr/share/mingw-w64/include/_mingw_mac.h \
+ /usr/share/mingw-w64/include/_mingw_secapi.h \
+ /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stdint.h \
+ /usr/share/mingw-w64/include/stdint.h \
+ /usr/share/mingw-w64/include/crtdefs.h \
+ /usr/share/mingw-w64/include/corecrt.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stddef.h \
+ /usr/share/mingw-w64/include/stddef.h \
+ /usr/share/mingw-w64/include/string.h \
+ /usr/share/mingw-w64/include/sec_api/string_s.h \
+ /usr/share/mingw-w64/include/wchar.h \
+ /usr/share/mingw-w64/include/corecrt_stdio_config.h \
+ /usr/share/mingw-w64/include/corecrt_wstdlib.h \
+ /usr/share/mingw-w64/include/_mingw_off_t.h \
+ /usr/share/mingw-w64/include/_mingw_stat64.h \
+ /usr/share/mingw-w64/include/swprintf.inl \
+ /usr/share/mingw-w64/include/sec_api/wchar_s.h \
+ /usr/share/mingw-w64/include/inttypes.h \
+ /usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stdbool.h \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL/include/SDL3/SDL_begin_code.h \
+ /home/niki_hendel/UNI/4Semester/GPU/Abgabe/Game/SDL/include/SDL3/SDL_close_code.h
