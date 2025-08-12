@@ -60,6 +60,9 @@ if(WIN32)
         setupapi
     )
     set(CMAKE_EXECUTABLE_SUFFIX ".exe")
+    target_link_libraries(${EXECUTABLE_NAME} PRIVATE -static-libgcc -static-libstdc++)
+    set_target_properties(${EXECUTABLE_NAME} PROPERTIES LINK_FLAGS "-static")
+
 endif()
 
 macro(copy_helper filename)

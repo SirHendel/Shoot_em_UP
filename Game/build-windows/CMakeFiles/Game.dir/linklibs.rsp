@@ -1,1 +1,1 @@
- SDL_ttf/libSDL3_ttf.dll.a SDL_mixer/libSDL3_mixer.dll.a SDL/libSDL3.dll.a -lwinmm -lole32 -loleaut32 -limm32 -lversion -lsetupapi -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ SDL_ttf/libSDL3_ttf.dll.a SDL_mixer/libSDL3_mixer.dll.a SDL/libSDL3.dll.a -lwinmm -lole32 -loleaut32 -limm32 -lversion -lsetupapi -static-libgcc -static-libstdc++ -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

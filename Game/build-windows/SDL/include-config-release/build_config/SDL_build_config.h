@@ -190,7 +190,7 @@
 /* #undef HAVE_SYSCONF */
 /* #undef HAVE_SYSCTLBYNAME */
 /* #undef HAVE_CLOCK_GETTIME */
-/* #undef HAVE_GETPAGESIZE */
+#define HAVE_GETPAGESIZE 1
 /* #undef HAVE_ICONV */
 /* #undef SDL_USE_LIBICONV */
 /* #undef HAVE_PTHREAD_SETNAME_NP */
