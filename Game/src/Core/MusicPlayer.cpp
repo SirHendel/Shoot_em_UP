@@ -3,7 +3,7 @@
 #include <SDL3_mixer/SDL_mixer.h>
 #include <iostream>
 #include <filesystem>
-#include <GameState.h>
+#include <Core/GameState.h>
 static Mix_Music *music = NULL;
 const char* oldfile;
 

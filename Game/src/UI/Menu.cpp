@@ -1,11 +1,11 @@
 #include "Menu.h"
-#include "TranslationKeys.h"
-#include "Translations.h"
-#include "Languages.h"
+#include "Localization/TranslationKeys.h"
+#include "Localization/Translations.h"
+#include "Localization/Languages.h"
 #include <SDL3/SDL.h>
 #include <iostream>
 #include <SDL3_ttf/SDL_ttf.h>
-#include "MusicPlayer.h"
+#include "Core/MusicPlayer.h"
 
 const int menuItemCount = 3;
 int selectedItem = 0;

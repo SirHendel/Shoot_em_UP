@@ -2,12 +2,12 @@
 #include "AppContext.h"
 #include "Utils.h"
 #include "GameState.h"
-#include "Menu.h"
-#include "Settings.h"
-#include "Game.h"
-#include "GameOver.h"
-#include "GameWon.h"
-#include "MusicPlayer.h"
+#include "UI/Menu.h"
+#include "UI/Settings.h"
+#include "Game/Game.h"
+#include "UI/GameOver.h"
+#include "UI/GameWon.h"
+#include "Core/MusicPlayer.h"
 
 LanguageCode selectedLanguage = ENGLISH;
 float audioVolume = 0.75f;

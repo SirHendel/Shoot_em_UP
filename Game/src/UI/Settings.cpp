@@ -1,9 +1,9 @@
 #include "Settings.h"
-#include "TranslationKeys.h"
-#include "Translations.h"
-#include "Languages.h"
-#include "GameState.h"
-#include "MusicPlayer.h"
+#include "Localization/TranslationKeys.h"
+#include "Localization/Translations.h"
+#include "Localization/Languages.h"
+#include "Core/GameState.h"
+#include "Core/MusicPlayer.h"
 #include <SDL3/SDL.h>
 #include <SDL3_ttf/SDL_ttf.h>
 #include <iostream>

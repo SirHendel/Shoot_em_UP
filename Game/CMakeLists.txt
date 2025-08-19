@@ -13,14 +13,20 @@ add_executable(${EXECUTABLE_NAME})
 
 target_sources(${EXECUTABLE_NAME}
 PRIVATE
-    src/main.cpp
-    src/Menu.cpp
-    src/Utils.cpp
-    src/Settings.cpp
-    src/MusicPlayer.cpp
-    src/Game.cpp
-    src/GameWon.cpp
-    src/GameOver.cpp
+    src/Core/main.cpp
+    src/Core/MusicPlayer.cpp
+    src/Core/Utils.cpp
+    src/Game/Entities/Bullet.cpp
+    src/Game/Entities/Enemy.cpp
+    src/Game/Entities/Player.cpp
+    src/Game/Managers/BulletManager.cpp
+    src/Game/Managers/CollisionManager.cpp
+    src/Game/Managers/EnemyManager.cpp
+    src/Game/Game.cpp
+    src/UI/GameOver.cpp
+    src/UI/GameWon.cpp
+    src/UI/Menu.cpp
+    src/UI/Settings.cpp
 )
 
 target_include_directories(${EXECUTABLE_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)

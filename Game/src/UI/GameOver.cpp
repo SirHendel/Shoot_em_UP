@@ -1,10 +1,10 @@
 #include "GameOver.h"
-#include "Game.h"
-#include "GameState.h"
-#include "Translations.h"
+#include "Game/Game.h"
+#include "Core/GameState.h"
+#include "Localization/Translations.h"
 #include <SDL3_ttf/SDL_ttf.h>
 #include <iostream>
-#include "Utils.h"
+#include "Core/Utils.h"
 // External variables from Game.cpp
 extern int score;
 extern GameStats gameStats;

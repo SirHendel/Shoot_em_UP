@@ -1,7 +1,7 @@
 #ifndef GAMESTATE_H
 #define GAMESTATE_H
 
-#include <Languages.h>
+#include "Localization/Languages.h"
 
 enum GameState {
     MAIN_MENU,
